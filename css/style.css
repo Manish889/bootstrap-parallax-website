@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+.parallax {
+    opacity: 0.8;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.parallax-img1 {
+    opacity: 0.8;
+  background-image: url(../img/1.jpg);
+}
+
+.parallax-img2 {
+  background-image: url(../img/v2osk-IHKBF23A_iw-unsplash.jpg);
+}
+
+.parallax-img3 {
+  background-image: url(../img/daniel-beilinson-eiqJBh7eHDU-unsplash.jpg);
+}
+
+.parallax-img4 {
+    opacity: 0.8;
+    background-image: url(../img/christopher-czermak-ulG2K7id26s-unsplash.jpg);
+}
+
+.parallax p {
+    background-color: #bfcba8;
+    width: 350px;
+    height: 100px;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.banner {
+    position: absolute;
+    top: 95vh;
+    left: 7rem;
+}
+
+.footer {
+    padding: 100px;
+}
